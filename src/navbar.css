@@ -1,0 +1,38 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease-in;
+  z-index: 100;
+  /* background-color: antiquewhite; */
+  height: 65px;
+}
+.nav__black {
+  background-color: #222;
+}
+.l-icon img {
+  position: fixed;
+  width: 120px;
+  height: 70px;
+  left: 2%;
+  top: 0;
+}
+.r-icon img {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  right: 2%;
+  top: 2.3%;
+}
+@media screen and (max-width: 1200px) {
+  .r-icon img {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    right: 2%;
+    top: 2.3%;
+  }
+}

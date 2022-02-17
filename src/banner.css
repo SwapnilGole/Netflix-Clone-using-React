@@ -1,0 +1,132 @@
+.banner {
+  height: 400px;
+  margin: 0 0 1rem 0;
+  position: relative;
+}
+.banner .banner__content {
+  width: 95%;
+  position: relative;
+  top: 45%;
+  /* padding-top: 10px; */
+  left: 1.5%;
+}
+.banner__title,
+.banner__desc {
+  color: #fff;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9);
+}
+.banner__title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.banner__desc__box {
+  width: 50%;
+}
+.banner__desc {
+  font-size: 1.05rem;
+}
+.banner__btn__box {
+  margin: 0.5rem 0;
+}
+.banner__btn {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  outline: none;
+  border: none;
+  margin-right: 1rem;
+  cursor: pointer;
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  transition: all 0.3s linear;
+}
+.banner__btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+.banner__fadebottom {
+  height: 4rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(31, 31, 31, 0.61),
+    #111
+  );
+}
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    height: 400px;
+  }
+  .banner .banner__content {
+    width: 90%;
+    top: 50%;
+    left: 5%;
+    /* background-color: aquamarine; */
+  }
+  .banner__desc__box {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .banner .banner__content {
+    width: 90%;
+    top: 45%;
+    left: 3%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 400px;
+  }
+  .banner .banner__content {
+    width: 90%;
+    top: 45%;
+    left: 3%;
+  }
+  .banner__title {
+    font-size: 2rem;
+  }
+  .banner__desc__box {
+    width: 60%;
+  }
+  .banner__desc {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (max-width: 568px) {
+  .banner {
+    height: 400px;
+  }
+  .banner .banner__content {
+    width: 95%;
+    top: 40%;
+    left: 5%;
+  }
+  .banner__desc__box {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .banner {
+    height: 400px;
+  }
+  .banner .banner__content {
+    width: 95%;
+    top: 45%;
+    left: 5%;
+  }
+  .banner__title {
+    font-size: 1.5rem;
+  }
+  .banner__desc__box {
+    width: 80%;
+  }
+  .banner__desc {
+    font-size: 1rem;
+  }
+}
